@@ -1,5 +1,18 @@
 # Spotify Playlist Generator
 
+Music Playlist Generator, using the OpenAI API and the Spotify API. A single line of command generates a playlist on the connected Spotify account. 
+
+
+Arguments:
+
+* `-p` - Promt for the OpenAI LLM to create a playlist. Used as the name of the playlist as well.
+* `-n` (optional) - Number of songs to be listed. Default number: 8
+* `-m` (optional) - Name of the Large Language Model. Default is `gpt-3.5-turbo`.
+
+
+Example: `python app.py -p "Thank God It's Monday!" -n 10 -m "gpt-4o"`
+
+![playlist](playlist.jpeg)
 
 
 ## How to run this project?
