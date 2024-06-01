@@ -3,7 +3,7 @@
 Music Playlist Generator, using the OpenAI API and the Spotify API. A single line of command generates a playlist on the connected Spotify account.
 
 
-Example command: `python app.py -p "Thank God It's Monday!" -n 10 -m "gpt-4o"`
+Example command: `python app.py -p "Rainy Days" -n 10 -m "gpt-4o"`
 
 Arguments:
 
