@@ -56,7 +56,12 @@ Arguments:
     `pip install -r requirements.txt`
 
 
-6. Run the project in the console:
+6. Create an "app" on Spotify
+
+    Under Spotify's Developer Dashboard, create a new App: Give it a name, description, and a redirect URI: http://localhost:9999
+
+
+7. Run the project in the console:
 
     - `python app.py -p "Happy days"` - "Happy days" will be the prompt for OpenAI to generate the playlist and it will be the title of the playlist on Spotify also.
 
